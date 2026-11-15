@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directories:
+      - /Paul.ApiService
+      - /Paul.AppHost
+      - /Paul.ServiceDefaults
+      - /Paul.Tests
+      - /Paul.Web
+    schedule:
+      interval: weekly
